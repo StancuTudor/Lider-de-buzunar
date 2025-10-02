@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AG AMD</title>
+  <title>DAC AMD</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Tudor de buzunar</h1>
+  <!-- Zona pentru alegerea butonului -->
+  <div id="buttonSelection">
+    <h2>Selectează echipa:</h2>
+    <div id="buttons"></div>
+  </div>
+
+  <!-- Containerul ascuns la început -->
+  <div class="container" id="mainContainer" style="display:none;">
+    <label id="chosenLabel"></label>
+    <h1>Lider de buzunar</h1>
     <input id="inputText" placeholder="Scrie-mi ceva..."></input>
     <button id="submitButton">Trimite</button>
     <div id="result"></div>
