@@ -74,6 +74,8 @@ function getResult_Lupisori(key) {
 	"IONCI": "Super! Acum du-te la Laura și spune-i liderul + răspunsul la întrebarea anterioară",
 	"GATA ORICAND": "Care lider a avut cel mai lung păr?",
 	"FLORENTINA": "Super! Acum du-te la Elena și spune-i liderul + răspunsul la întrebarea anterioară",
+	"DUMINICA": "Care lider este șeful de centru?",
+	"LEO": "Super! Acum du-te la Tudor și spune-i liderul + răspunsul la întrebarea anterioară",
   };
 
   // Return the corresponding answer based on the key, or the default if not found
@@ -94,6 +96,8 @@ function getResult_Temerari56(key) {
 	"YETI": "Care lider ar putea fi opera scriitorului Constantin Chiriță?",
 	"ALEX": "Super! Acum du-te la Laura și spune-i liderul + răspunsul la întrebarea anterioară",
 	"ALAMUT": "Super! Din păcate această întrebare nu are vreun lider alocat. Mergi mai departe!",
+	"DUMINICA": "Care lider este șeful de centru?",
+	"LEO": "Super! Acum du-te la Tudor și spune-i liderul + răspunsul la întrebarea anterioară",
   };
 
   // Return the corresponding answer based on the key, or the default if not found
@@ -115,6 +119,8 @@ function getResult_Temerari78(key) {
 	"GEORGIANA": "Super! Acum du-te la Andreea și spune-i liderul + răspunsul la întrebarea anterioară",
 	"22 FEBRUARIE": "Ce lider băiat au întâlnit pentru prima dată temerarii în camp?",
 	"GABI": "Super! Acum du-te la Elena și spune-i liderul + răspunsul la întrebarea anterioară",
+	"DUMINICA": "Care lider este șeful de centru?",
+	"LEO": "Super! Acum du-te la Tudor și spune-i liderul + răspunsul la întrebarea anterioară",
   };
 
   // Return the corresponding answer based on the key, or the default if not found
@@ -136,6 +142,8 @@ function getResult_Exploratori(key) {
 	"ADI": "Super! Acum du-te la Elena și spune-i liderul + răspunsul la întrebarea anterioară",
 	"YETI": "Care lider are o cicatrice sub ochi?",
 	"ELENA": "Super! Acum du-te la Alex și spune-i liderul + răspunsul la întrebarea anterioară",
+	"DUMINICA": "Care lider este șeful de centru?",
+	"LEO": "Super! Acum du-te la Tudor și spune-i liderul + răspunsul la întrebarea anterioară",
   };
 
   // Return the corresponding answer based on the key, or the default if not found
@@ -154,6 +162,8 @@ function getResult_Seniori(key) {
 	"FLOAREA DE CRIN": "Super! Din păcate această întrebare nu are vreun lider alocat. Mergi mai departe!",
 	"CHILE": "Super! Din păcate această întrebare nu are vreun lider alocat. Mergi mai departe!",
 	"YETI": "Super! Din păcate această întrebare nu are vreun lider alocat. Mergi mai departe!",
+	"DUMINICA": "Care lider este șeful de centru?",
+	"LEO": "Super! Acum du-te la Tudor și spune-i liderul + răspunsul la întrebarea anterioară",
   };
 
   // Return the corresponding answer based on the key, or the default if not found
