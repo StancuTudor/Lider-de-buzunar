@@ -1,5 +1,6 @@
 let chosenValue = null;
 let teams = ["Lupișori", "Temerari 1", "Temerari 2", "Exploratori", "Seniori"];
+let teamColors = ["Yellow", "Green", "Green", "Blue", "Purple"]
 
 window.onload = () => {
   const buttonsContainer = document.getElementById("buttons");
@@ -11,9 +12,11 @@ window.onload = () => {
   for (let i = 0; i < 5; i++) {
     let btn = document.createElement("button");
     btn.textContent = teams[i];
+	btn.style.backgroundColor = teamColors[i];
     btn.addEventListener("click", () => {
       chosenValue = teams[i];
       chosenLabel.textContent = "Echipa: " + chosenValue;
+      chosenLabel.style.color = teamColors[i];
 
       // Ascundem selecția butoanelor
       buttonSelection.style.display = "none";
@@ -35,10 +38,10 @@ function handleButtonClick() {
 	result = getResult_Lupisori(inputText);
   }
   else if (chosenValue == teams[1]){
-	result = getResult_Temerari56(inputText);
+	result = getResult_Temerari1(inputText);
   }
   else if (chosenValue == teams[2]){
-	result = getResult_Temerari78(inputText);
+	result = getResult_Temerari2(inputText);
   }
   else if (chosenValue == teams[3]){
 	result = getResult_Exploratori(inputText);
@@ -82,7 +85,7 @@ function getResult_Lupisori(key) {
   return answers[key] || "Nu știu să răspund.";
 }
 
-function getResult_Temerari56(key) {
+function getResult_Temerari1(key) {
 	key = key.toUpperCase().trim();
 	
 	const answers = {
@@ -104,7 +107,7 @@ function getResult_Temerari56(key) {
   return answers[key] || "Nu știu să răspund.";
 }
 
-function getResult_Temerari78(key) {
+function getResult_Temerari2(key) {
 	key = key.toUpperCase().trim();
 	
 	const answers = {
