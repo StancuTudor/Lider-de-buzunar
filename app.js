@@ -1,5 +1,5 @@
 let chosenValue = null;
-let teams = ["Lupișori", "Temerari 5-6", "Temerari 7-8", "Exploratori", "Seniori"];
+let teams = ["Lupișori", "Temerari 1", "Temerari 2", "Exploratori", "Seniori"];
 
 window.onload = () => {
   const buttonsContainer = document.getElementById("buttons");
