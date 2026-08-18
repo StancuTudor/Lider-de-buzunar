@@ -3,24 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DAC AMD</title>
+  <title>CoLeg AMD</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <!-- Zona pentru alegerea butonului -->
   <div id="buttonSelection">
-    <h2>Selectează echipa:</h2>
+    <h2>Selectează clanul:</h2>
     <div id="buttons"></div>
   </div>
 
   <!-- Containerul ascuns la început -->
   <div class="container" id="mainContainer" style="display:none;">
     <label id="chosenLabel"></label>
-    <h1>Lider de buzunar</h1>
+    <h1>Hokage de buzunar</h1>
+	<h2><button onclick="getLocation()">📍</button>
     <input id="inputText" placeholder="Scrie-mi ceva..."></input>
     <button id="submitButton">Trimite</button>
     <div id="result"></div>
   </div>
+  
   
   <script src="app.js"></script>
 </body>
