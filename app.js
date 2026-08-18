@@ -1,5 +1,5 @@
 let chosenValue = null;
-let teams = ["Nara", "Uzumaki", "Uchiha"];
+let teams = ["Senju", "Uzumaki", "Uchiha"];
 let teamColors = ["Brown", "Orange", "DarkSlateBlue"]
 
 window.onload = () => {
@@ -100,7 +100,7 @@ function getLocation() {
             const lat = position.coords.latitude;
             const lon = position.coords.longitude;
 
-            const coordinates = `${lat}, ${lon}`;
+            const coordinates = `${lat.toFixed(3)}, ${lon.toFixed(3)}`;
 			document.getElementById('inputText').value = coordinates;
         },
         function(error) {
