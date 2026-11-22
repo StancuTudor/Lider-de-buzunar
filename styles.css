@@ -37,16 +37,3 @@ textarea {
   min-height: 50px;
   margin-top: 20px;
 }
-
-#buttons button {
-  margin: 5px;
-  padding: 10px 15px;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-#chosenLabel {
-  display: block;
-  margin-top: 15px;
-  font-weight: bold;
-}
